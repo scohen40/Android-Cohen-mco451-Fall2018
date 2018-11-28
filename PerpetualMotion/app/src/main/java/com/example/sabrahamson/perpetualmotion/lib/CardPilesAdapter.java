@@ -44,8 +44,15 @@ public class CardPilesAdapter extends RecyclerView.Adapter<CardPilesAdapter.View
     }
 
     @Override
-    public void onBindViewHolder(@NonNull ViewHolder viewHolder, int i) {
+    public void onBindViewHolder(@NonNull ViewHolder viewHolder, int i) { //i is the position
+        updateOuterCard(viewHolder, i);
+        updateInnerCard(viewHolder, i);
+    }
 
+    private void updateOuterCard(ViewHolder viewHolder, int i) {
+    }
+
+    private void updateInnerCard(ViewHolder viewHolder, int i) {
     }
 
     @Override
