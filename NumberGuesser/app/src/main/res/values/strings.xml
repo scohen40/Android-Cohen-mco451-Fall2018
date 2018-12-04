@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">NumberGuesser</string>
+    <string name="action_settings">Settings</string>
+    <string name="tv_banner">Please guess the winning number.</string>
+    <string name="button_one">1</string>
+    <string name="button_two">2</string>
+    <string name="button_three">3</string>
+</resources>
